@@ -1,0 +1,1708 @@
+[1637886846.863][INFO]: Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27036
+[1637886846.863][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1637886847.608][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "eager"
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "pageLoadStrategy": "eager"
+   }
+}
+[1637886847.613][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1637886847.614][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1637886847.618][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ajayr\AppData\Local\Temp\scoped_dir13236_1015640393" data:,
+[1637886848.239][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1637886848.257][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "96.0.4664.45",
+      "chrome": {
+         "chromedriverVersion": "96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})",
+         "userDataDir": "C:\\Users\\ajayr\\AppData\\Local\\Temp\\scoped_dir13236_1015640393"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54116"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "eager",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "080a317c4e256a624cde821a6daae431"
+}
+[1637886848.324][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND MaximizeWindow {
+
+}
+[1637886848.324][INFO]: Waiting for pending navigations...
+[1637886848.326][INFO]: Done waiting for pending navigations. Status: ok
+[1637886848.327][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1637886848.449][INFO]: Waiting for pending navigations...
+[1637886848.450][INFO]: Done waiting for pending navigations. Status: ok
+[1637886848.450][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1637886848.464][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND SetTimeouts {
+   "implicit": 10000
+}
+[1637886848.464][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE SetTimeouts
+[1637886848.480][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND Navigate {
+   "url": "http://70.35.194.116/"
+}
+[1637886848.480][INFO]: Waiting for pending navigations...
+[1637886848.481][INFO]: Done waiting for pending navigations. Status: ok
+[1637886848.930][INFO]: Waiting for pending navigations...
+[1637886850.979][INFO]: Done waiting for pending navigations. Status: ok
+[1637886850.979][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE Navigate
+[1637886851.017][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886851.017][INFO]: Waiting for pending navigations...
+[1637886851.018][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.039][INFO]: Waiting for pending navigations...
+[1637886851.040][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.040][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886851.064][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886851.064][INFO]: Waiting for pending navigations...
+[1637886851.065][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.074][INFO]: Waiting for pending navigations...
+[1637886851.074][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.074][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886851.095][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886851.095][INFO]: Waiting for pending navigations...
+[1637886851.095][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.100][INFO]: Waiting for pending navigations...
+[1637886851.101][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.101][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886851.110][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886851.110][INFO]: Waiting for pending navigations...
+[1637886851.111][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.115][INFO]: Waiting for pending navigations...
+[1637886851.116][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.116][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886851.141][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886851.142][INFO]: Waiting for pending navigations...
+[1637886851.143][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.147][INFO]: Waiting for pending navigations...
+[1637886851.148][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.148][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/"
+[1637886851.581][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886851.583][INFO]: Waiting for pending navigations...
+[1637886851.585][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.600][INFO]: Waiting for pending navigations...
+[1637886851.602][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.602][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886851.628][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886851.628][INFO]: Waiting for pending navigations...
+[1637886851.630][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.644][INFO]: Waiting for pending navigations...
+[1637886851.646][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.646][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886851.675][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886851.675][INFO]: Waiting for pending navigations...
+[1637886851.676][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.683][INFO]: Waiting for pending navigations...
+[1637886851.684][INFO]: Done waiting for pending navigations. Status: ok
+[1637886851.684][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/"
+[1637886852.111][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886852.112][INFO]: Waiting for pending navigations...
+[1637886852.114][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.127][INFO]: Waiting for pending navigations...
+[1637886852.129][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.129][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886852.158][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886852.158][INFO]: Waiting for pending navigations...
+[1637886852.160][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.170][INFO]: Waiting for pending navigations...
+[1637886852.171][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.172][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886852.190][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886852.190][INFO]: Waiting for pending navigations...
+[1637886852.192][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.197][INFO]: Waiting for pending navigations...
+[1637886852.199][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.199][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/#"
+[1637886852.632][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886852.632][INFO]: Waiting for pending navigations...
+[1637886852.636][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.652][INFO]: Waiting for pending navigations...
+[1637886852.653][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.654][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886852.675][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886852.675][INFO]: Waiting for pending navigations...
+[1637886852.676][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.680][INFO]: Waiting for pending navigations...
+[1637886852.680][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.680][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886852.691][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886852.691][INFO]: Waiting for pending navigations...
+[1637886852.691][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.694][INFO]: Waiting for pending navigations...
+[1637886852.694][INFO]: Done waiting for pending navigations. Status: ok
+[1637886852.694][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/#"
+[1637886853.115][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886853.115][INFO]: Waiting for pending navigations...
+[1637886853.116][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.121][INFO]: Waiting for pending navigations...
+[1637886853.121][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.121][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886853.131][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886853.131][INFO]: Waiting for pending navigations...
+[1637886853.132][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.136][INFO]: Waiting for pending navigations...
+[1637886853.137][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.137][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886853.148][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886853.149][INFO]: Waiting for pending navigations...
+[1637886853.149][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.152][INFO]: Waiting for pending navigations...
+[1637886853.153][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.153][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/medicines/"
+[1637886853.577][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886853.577][INFO]: Waiting for pending navigations...
+[1637886853.578][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.581][INFO]: Waiting for pending navigations...
+[1637886853.582][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.582][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886853.593][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886853.593][INFO]: Waiting for pending navigations...
+[1637886853.594][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.597][INFO]: Waiting for pending navigations...
+[1637886853.598][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.598][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886853.609][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886853.609][INFO]: Waiting for pending navigations...
+[1637886853.610][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.612][INFO]: Waiting for pending navigations...
+[1637886853.613][INFO]: Done waiting for pending navigations. Status: ok
+[1637886853.613][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/#"
+[1637886854.032][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886854.032][INFO]: Waiting for pending navigations...
+[1637886854.033][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.036][INFO]: Waiting for pending navigations...
+[1637886854.037][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.037][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886854.048][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886854.048][INFO]: Waiting for pending navigations...
+[1637886854.049][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.052][INFO]: Waiting for pending navigations...
+[1637886854.053][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.053][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886854.064][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886854.064][INFO]: Waiting for pending navigations...
+[1637886854.065][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.067][INFO]: Waiting for pending navigations...
+[1637886854.067][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.067][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/#"
+[1637886854.506][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886854.506][INFO]: Waiting for pending navigations...
+[1637886854.507][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.510][INFO]: Waiting for pending navigations...
+[1637886854.511][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.511][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886854.522][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886854.522][INFO]: Waiting for pending navigations...
+[1637886854.523][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.526][INFO]: Waiting for pending navigations...
+[1637886854.526][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.526][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886854.539][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886854.539][INFO]: Waiting for pending navigations...
+[1637886854.540][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.542][INFO]: Waiting for pending navigations...
+[1637886854.543][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.543][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/#"
+[1637886854.967][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886854.967][INFO]: Waiting for pending navigations...
+[1637886854.968][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.971][INFO]: Waiting for pending navigations...
+[1637886854.972][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.972][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886854.983][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886854.983][INFO]: Waiting for pending navigations...
+[1637886854.984][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.987][INFO]: Waiting for pending navigations...
+[1637886854.987][INFO]: Done waiting for pending navigations. Status: ok
+[1637886854.987][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886855.000][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886855.000][INFO]: Waiting for pending navigations...
+[1637886855.000][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.003][INFO]: Waiting for pending navigations...
+[1637886855.003][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.003][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/auth/login/"
+[1637886855.426][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886855.426][INFO]: Waiting for pending navigations...
+[1637886855.427][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.430][INFO]: Waiting for pending navigations...
+[1637886855.431][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.431][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886855.441][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886855.441][INFO]: Waiting for pending navigations...
+[1637886855.442][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.446][INFO]: Waiting for pending navigations...
+[1637886855.447][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.447][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886855.458][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886855.458][INFO]: Waiting for pending navigations...
+[1637886855.458][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.461][INFO]: Waiting for pending navigations...
+[1637886855.461][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.461][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/#"
+[1637886855.882][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886855.882][INFO]: Waiting for pending navigations...
+[1637886855.882][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.886][INFO]: Waiting for pending navigations...
+[1637886855.887][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.887][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886855.898][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886855.898][INFO]: Waiting for pending navigations...
+[1637886855.898][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.902][INFO]: Waiting for pending navigations...
+[1637886855.902][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.902][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886855.913][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886855.913][INFO]: Waiting for pending navigations...
+[1637886855.914][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.916][INFO]: Waiting for pending navigations...
+[1637886855.916][INFO]: Done waiting for pending navigations. Status: ok
+[1637886855.917][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/#"
+[1637886856.335][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886856.335][INFO]: Waiting for pending navigations...
+[1637886856.336][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.340][INFO]: Waiting for pending navigations...
+[1637886856.341][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.341][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886856.351][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886856.351][INFO]: Waiting for pending navigations...
+[1637886856.352][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.356][INFO]: Waiting for pending navigations...
+[1637886856.356][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.356][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886856.368][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886856.368][INFO]: Waiting for pending navigations...
+[1637886856.368][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.371][INFO]: Waiting for pending navigations...
+[1637886856.371][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.371][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/#"
+[1637886856.795][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886856.795][INFO]: Waiting for pending navigations...
+[1637886856.796][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.800][INFO]: Waiting for pending navigations...
+[1637886856.800][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.800][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886856.811][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886856.811][INFO]: Waiting for pending navigations...
+[1637886856.812][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.815][INFO]: Waiting for pending navigations...
+[1637886856.816][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.816][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886856.827][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886856.827][INFO]: Waiting for pending navigations...
+[1637886856.828][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.831][INFO]: Waiting for pending navigations...
+[1637886856.831][INFO]: Done waiting for pending navigations. Status: ok
+[1637886856.831][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript "http://70.35.194.116/#"
+[1637886857.257][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886857.257][INFO]: Waiting for pending navigations...
+[1637886857.258][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.261][INFO]: Waiting for pending navigations...
+[1637886857.262][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.262][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886857.273][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886857.273][INFO]: Waiting for pending navigations...
+[1637886857.274][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.277][INFO]: Waiting for pending navigations...
+[1637886857.278][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.278][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886857.289][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886857.289][INFO]: Waiting for pending navigations...
+[1637886857.290][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.293][INFO]: Waiting for pending navigations...
+[1637886857.293][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.293][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript ""
+[1637886857.305][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886857.305][INFO]: Waiting for pending navigations...
+[1637886857.305][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.309][INFO]: Waiting for pending navigations...
+[1637886857.309][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.309][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886857.321][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886857.321][INFO]: Waiting for pending navigations...
+[1637886857.322][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.325][INFO]: Waiting for pending navigations...
+[1637886857.326][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.326][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886857.337][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+   }, "href" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1637886857.337][INFO]: Waiting for pending navigations...
+[1637886857.338][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.340][INFO]: Waiting for pending navigations...
+[1637886857.341][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.341][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ExecuteScript ""
+[1637886857.353][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1637886857.353][INFO]: Waiting for pending navigations...
+[1637886857.354][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.358][INFO]: Waiting for pending navigations...
+[1637886857.358][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.358][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "208b44b3-cc2b-4e71-9aa9-94bc991b661a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "efdf4eaa-2f29-49de-95ef-da8c43be90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "37bf9e81-2f52-4a5b-aefb-0c03a535c382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6025dafc-4c81-4305-b84f-b0e06690a725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "73dc9e81-4076-42e6-a5c3-61425cfaca1a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f951ea27-0e60-45a7-a33f-afdfc96d116f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a06e7f7e-a504-4003-bca7-1df284167bb6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c43be716-c776-46cf-92e2-223ce0224dd7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e1eae4a5-33ff-4f76-beeb-97d743baaac7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd68bf49-1b66-473d-b60f-c3609902a9f7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23635de3-7167-4499-933b-cf32da7dd77c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db35e5a1-2e9c-40c7-9c23-40656c6f3750"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43b37035-31ee-4f3d-a53e-8ad150371918"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c2c3e506-0555-452e-9360-435fc4a1c2c7"
+} ]
+[1637886857.369][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@href = '/auth/login/']"
+}
+[1637886857.369][INFO]: Waiting for pending navigations...
+[1637886857.369][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.377][INFO]: Waiting for pending navigations...
+[1637886857.378][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.378][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "67666560-13ea-4888-8b43-f832bf4452ab"
+}
+[1637886857.385][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ClickElement {
+   "id": "67666560-13ea-4888-8b43-f832bf4452ab"
+}
+[1637886857.385][INFO]: Waiting for pending navigations...
+[1637886857.385][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.416][INFO]: Waiting for pending navigations...
+[1637886857.939][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.939][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ClickElement
+[1637886857.955][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='phone_number']"
+}
+[1637886857.955][INFO]: Waiting for pending navigations...
+[1637886857.956][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.965][INFO]: Waiting for pending navigations...
+[1637886857.965][INFO]: Done waiting for pending navigations. Status: ok
+[1637886857.965][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a805e43e-cbb9-4915-bb29-f16438ffca95"
+}
+[1637886857.987][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND TypeElement {
+   "id": "a805e43e-cbb9-4915-bb29-f16438ffca95",
+   "text": "(571)-379-0222",
+   "value": [ "(", "5", "7", "1", ")", "-", "3", "7", "9", "-", "0", "2", "2", "2" ]
+}
+[1637886857.987][INFO]: Waiting for pending navigations...
+[1637886857.988][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.038][INFO]: Waiting for pending navigations...
+[1637886858.040][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.040][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE TypeElement
+[1637886858.049][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='password']"
+}
+[1637886858.049][INFO]: Waiting for pending navigations...
+[1637886858.049][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.057][INFO]: Waiting for pending navigations...
+[1637886858.057][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.058][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ed28b8c3-2cfe-4895-8cfd-ce4a993935d6"
+}
+[1637886858.065][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND TypeElement {
+   "id": "ed28b8c3-2cfe-4895-8cfd-ce4a993935d6",
+   "text": "kaamchha",
+   "value": [ "k", "a", "a", "m", "c", "h", "h", "a" ]
+}
+[1637886858.065][INFO]: Waiting for pending navigations...
+[1637886858.066][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.113][INFO]: Waiting for pending navigations...
+[1637886858.113][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.114][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE TypeElement
+[1637886858.127][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[text()=\"Login\"]"
+}
+[1637886858.127][INFO]: Waiting for pending navigations...
+[1637886858.128][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.137][INFO]: Waiting for pending navigations...
+[1637886858.138][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.138][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6780de6f-df1e-4ae0-8b40-5c1448cd3bc0"
+}
+[1637886858.143][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND ClickElement {
+   "id": "6780de6f-df1e-4ae0-8b40-5c1448cd3bc0"
+}
+[1637886858.143][INFO]: Waiting for pending navigations...
+[1637886858.144][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.176][INFO]: Waiting for pending navigations...
+[1637886858.661][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.661][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE ClickElement
+[1637886858.676][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@role='alert']"
+}
+[1637886858.676][INFO]: Waiting for pending navigations...
+[1637886858.677][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.685][INFO]: Waiting for pending navigations...
+[1637886858.686][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.686][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d00e76b3-4367-43c0-806a-5a61bcf40b1e"
+}
+[1637886858.687][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND GetElementText {
+   "id": "d00e76b3-4367-43c0-806a-5a61bcf40b1e"
+}
+[1637886858.687][INFO]: Waiting for pending navigations...
+[1637886858.688][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.699][INFO]: Waiting for pending navigations...
+[1637886858.699][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.699][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE GetElementText "Invalid Credentials\n×"
+[1637886858.709][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND Screenshot {
+
+}
+[1637886858.709][INFO]: Waiting for pending navigations...
+[1637886858.710][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.886][INFO]: Waiting for pending navigations...
+[1637886858.887][INFO]: Done waiting for pending navigations. Status: ok
+[1637886858.887][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAN1CAYAAACesuZ/AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X+QXnWdJ/p3dzrdIYQQHH7EMbJCVBTlDp3VnQRRIKNomIuVAgGFXago7BYOd2oAZ6+IDGEUce8IM2Wp1C4BCu4N/kCYlFzJyiiCImnvOAmz0SgowmgcAmEk6..."
+[1637886858.929][INFO]: [080a317c4e256a624cde821a6daae431] COMMAND Quit {
+
+}
+[1637886859.023][INFO]: [080a317c4e256a624cde821a6daae431] RESPONSE Quit
